@@ -1,0 +1,16 @@
+.cuerpo{
+    padding: 0rem 0;
+    /*min-height: 500px;*/
+}
+
+.cintilla{
+    min-height: 20px;
+}
+
+.naranja{
+    background-color: var(--naranja);
+}
+
+.verde{
+    background-color: var(--verde);
+}

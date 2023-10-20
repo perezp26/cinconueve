@@ -1,0 +1,38 @@
+.header{
+   
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../public/imgs/bannerPrincipal.png);
+    /* background-image:  url(../public/img/bannerPrincipal.png); */
+    background-position: center;
+    background-size:cover;
+    /* height: 870px; */
+}
+
+.navegacion {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+@media (min-width:768px){
+    .navegacion{
+        flex-direction: row;
+        margin:0
+    }
+}
+
+.navegacion a {
+    color: var(--verde);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+.navegacion a:hover, .active{
+    background-color: var(--gris);
+}
