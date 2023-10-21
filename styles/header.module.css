@@ -33,6 +33,7 @@
     transition-duration: 300ms;
 }
 
+
 .navegacion a:hover, .active{
     background-color: var(--gris);
 }

@@ -11,8 +11,8 @@ const Header = () => {
             <div className='md:w-1/3 w-1/2'>
                     <Image src='/imgs/logoCincoNueve.png' width={ 285 }  height={ 243 } alt="CincoNueve" className=' mx-auto ' />
             </div>
-            <div className='md:w-2/3 w-1/2 flex  justify-center md:pt-7 pt-0'>
-                      <div className='    '>
+            <div className='md:w-2/3 w-1/2 flex  justify-center md:pt-7 py-5'>
+                      <div className=''>
                           <nav className={`${styles.navegacion}`}>
                               <Link href="/">
                                   Inicio
