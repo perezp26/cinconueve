@@ -11,10 +11,10 @@ export default function Home() {
                   </div>
                   <div className={`${ styles.fondo } ${ styles.naranja }`} >
                             <div className='md:flex'>
-                                <div className=' text-white font-extralight p-36 text-4xl text-center '>
+                                <div className=' text-white font-extralight md:p-36 p-7 text-4xl text-center '>
                                       <p>
                                         Somos una empresa  mexicana con más de 25 años en el ramo de la contrucción industrial, residencial y comercial,
-                                        antemoniendo la honestidad y claridad con nuestros clientes
+                                        anteponiendo la honestidad y claridad con nuestros clientes
                                       </p>
                                 </div>
                             </div>

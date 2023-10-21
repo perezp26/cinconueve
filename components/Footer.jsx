@@ -17,7 +17,7 @@ const [today, settoday] = useState(new Date())
                     <p className=' font-extralight text-2xl py-1'>Términos y condiciones</p>
                     <p className=' font-extralight text-2xl py-1'>cinconueve { today.getFullYear() } derechos reservados </p>
             </div>
-            <div className='md:w-1/3  flex'>
+            <div className='md:w-1/3  flex md:mt-0 mt-5'>
                   <div className=' w-full flex  m-auto '>
                       <div className='w-1/3 '>
                               <Image src='/imgs/whatsapp.png' width={ 45 }  height={ 45 } alt="facebook" className=' mx-auto ' />
